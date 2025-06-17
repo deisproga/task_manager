@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+*.env
+*.log
+
+# Virtual env
+.venv/
+env/
+venv/
+
+# Django
+db.sqlite3
+media/
+staticfiles/
+
+# VSCode
+.vscode/
+
+# Docker
+*.pid
+*.db
+*.tar
+*.gz
+
+# PyCharm
+.idea/
+
+# Migrations (опционально)
+**/migrations/__pycache__/
+**/migrations/*.pyc
+**/migrations/*.pyo
+
+# System
+.DS_Store
+Thumbs.db
+
+# Coverage/test/cache
+.coverage
+htmlcov/
+.pytest_cache/
+.cache/
